@@ -14,7 +14,7 @@ Checkout my other repos for similar attacks with similar images
 ![](experiments/frames/cat_k=10.0_nqueries=1000_constant_schedule=True_p-init=0.3/rs_attack_frames_gvision_1_1_nqueries_1000_pinit_0.30_loss_margin_k_10_targeted_False_targetclass_None_seed_0_487.png)
 
 ### L0 2000px
-![](experiments/L0/cat_k=2000_nqueries=1000_constant_schedule=True_p-init=0.3/rs_attack_L0_gvision_1_1_nqueries_1000_pinit_0.30_loss_margin_k_2000_targeted_False_targetclass_None_seed_0_107.png)
+![](experiments/L0/cat_k=2000_nqueries=1000_constant_schedule=True_p-init=0.3/rs_attack_L0_gvision_1_1_nqueries_1000_pinit_0.30_loss_margin_k_2000_targeted_False_targetclass_None_seed_0_426.png)
 
 ### Original shark image
 ![](experiments/frames/shark_k=20.0_nqueries=1000_constant_schedule=True_p-init=0.3/rs_attack_frames_gvision_1_1_nqueries_1000_pinit_0.30_loss_margin_k_20_targeted_False_targetclass_None_seed_0_1.png)
