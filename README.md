@@ -1,4 +1,33 @@
+## Sparse-RS attack on Google Vision API.
+This fork tries to apply Sparse-RS attack on Google vision API
+
+Checkout my other repos for similar attacks with similar images
+- [Square-Attack](https://github.com/kubic71/square-attack)
+- [RayS](https://github.com/kubic71/RayS)
+- [TREMBA](https://github.com/kubic71/TREMBA)
+
+## Here are some examples
+### Original cat image
+![](experiments/frames/cat_k=10.0_nqueries=1000_constant_schedule=True_p-init=0.3/rs_attack_frames_gvision_1_1_nqueries_1000_pinit_0.30_loss_margin_k_10_targeted_False_targetclass_None_seed_0_1.png)
+
+### Frame 10px
+![](experiments/frames/cat_k=10.0_nqueries=1000_constant_schedule=True_p-init=0.3/rs_attack_frames_gvision_1_1_nqueries_1000_pinit_0.30_loss_margin_k_10_targeted_False_targetclass_None_seed_0_487.png)
+
+### L0 2000px
+![](experiments/L0/cat_k=2000_nqueries=1000_constant_schedule=True_p-init=0.3/rs_attack_L0_gvision_1_1_nqueries_1000_pinit_0.30_loss_margin_k_2000_targeted_False_targetclass_None_seed_0_107.png)
+
+### Original shark image
+![](experiments/frames/shark_k=20.0_nqueries=1000_constant_schedule=True_p-init=0.3/rs_attack_frames_gvision_1_1_nqueries_1000_pinit_0.30_loss_margin_k_20_targeted_False_targetclass_None_seed_0_1.png)
+
+### Frame 20px
+![](experiments/frames/shark_k=20.0_nqueries=1000_constant_schedule=True_p-init=0.3/rs_attack_frames_gvision_1_1_nqueries_1000_pinit_0.30_loss_margin_k_20_targeted_False_targetclass_None_seed_0_942.png)
+
+### L0 2000px
+![](experiments/L0/shark_k=2000_nqueries=1000_constant_schedule=True_p-init=0.3/rs_attack_L0_gvision_1_1_nqueries_1000_pinit_0.30_loss_margin_k_2000_targeted_False_targetclass_None_seed_0_604.png)
+
+
 # Sparse-RS: a versatile framework for query-efficient sparse black-box adversarial attacks
+
 **Francesco Croce, Maksym Andriushchenko, Naman D. Singh, Nicolas Flammarion, Matthias Hein**
 
 **University of Tübingen and EPFL**
